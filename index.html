@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
+    <link rel="stylesheet" href="css/diseño.css" media="screen" title="no title">
+    <meta charset="utf-8">
+    <title>Invie Home</title>
+  </head>
+  <body>
+    <section class="portada">
+      <header class="header contenedor">
+        <figure class="logotipo">
+          <img src="images/invie.png" alt="Logotipo de Invie" />
+        </figure>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#guitarras">Guitarras</a></li>
+            <li><a href="index.html">Precios</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="contenedor">
+        <h1>Guitarras Inviesibles</h1>
+        <h3>Sé la estrella de rock que siempre quisiste ser</h3>
+        <button class="botoncito"type="button" name="button">¡Conoce más!</button>
+      </div>
+    </section>
+    <section class="guitarras contenedor-g">
+      <h2>Nuestras Guitarras</h2>
+      <article class="acustica">
+        <h3 class="titulo-a">Invie Acustica</h3>
+        <img class="g-acustica" src="images/invie-acustica.png" alt="Invie acustica" width="300" height="300" />
+        <ol>
+          <li>Estilo vintage</li>
+          <li>Madera pura</li>
+          <li>Incluye estuche invisible de aluminio</li>
+        </ol>
+      </article>
+      <article class="clasica">
+        <img class="g-clasica" src="images/invie-classic.png" alt="Invie clasica" width="350"/>
+        <h3 class="titulo-b"> Invie Clásica </h3>
+        <ol>
+          <li>Estilo vintage</li>
+          <li>Liviana</li>
+          <li>Inicia tu camino como Rock Star</li>
+        </ol>
+      </article>
+    </section>
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="contacto">
+          <img src="images/invie-white.png" alt="Logotipo blanco de Invie" />
+          <a href="tel:+573132557444"><strong>Teléfono</strong><span>313-255-7444</span></a>
+          <a href="mailto:juansefreak@hotmail.com"><strong>E-mail</strong><span>contacto@invie.com</span></a>
+        </div>
+        <form class="formulario" action="index.html" method="post">
+          <div class="intereses">
+            <label for="nombre">Nombre
+              <input type="text" name="name" id="nombre" placeholder="Nombre">
+            </label>
+            <label for="email">E-mail
+              <input type="text" name="name" id="email" placeholder="Email">
+            </label>
+            <div class="genero">
+              <label for="mujer">Mujer
+                <input type="radio" name="name" id="mujer">
+              </label>
+              <label for="hombre">Hombre
+                <input type="radio" name="name" id="hombre">
+              </label>
+            </div>
+            <div class="check">
+              <label for="cotizacion">Cotización
+                <input type="checkbox" name="name" id="cotizacion">
+              </label>
+              <label for="reclamos">Reclamos
+                <input type="checkbox" name="name" id="Reclamos">
+              </label>
+              <label for="comentarios">Comentarios
+                <input type="checkbox" name="name" id="comentarios">
+              </label>
+              <label for="otros">Otros
+                <input type="checkbox" name="name" id="otros">
+              </label>
+            </div>
+          </div>
+          <div class="comentarios">
+            <label for=""> <span>Comentarios</span>
+              <textarea name="name" rows="8" cols="35"></textarea>
+            </label>
+            <input type="button" name="name" value="Enviar" class="enviar">
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

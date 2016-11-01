@@ -1,0 +1,166 @@
+ /*font-family: 'Allerta', sans-serif;
+ font-family: 'Montserrat', sans-serif;*/
+/**{
+  border: 1px solid red;
+}*/
+body{
+  margin: 0;
+  font-family: 'Allerta', sans-serif;
+}
+.header{
+  position: relative;
+}
+.contenedor{
+  width: 950px;
+  margin: auto;
+}
+.contenedor-g{
+  width: 700px;
+  margin: auto;
+}
+.logotipo{
+  display: inline-block;
+  margin-left: 0;
+}
+.menu{
+  display: inline;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+.menu li{
+  display: inline-block;
+  padding-left: 15px;
+}
+.portada{
+  background-image: url('../images/background.png');
+  width: 100%
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.portada h1{
+  margin-top: 90px;
+  margin-bottom: 0px;
+  font-size: 60px;
+}
+.titulo-a{
+  margin-top: 5px;
+  font-size: 50px;
+  padding-left: 17px;
+}
+.titulo-b{
+  margin:0;
+  font-size: 50px;
+  position: relative;
+  left: 300px;
+
+}
+.botoncito{
+  background: red;
+  color:white;
+  padding: 7px;
+  margin-bottom: 100px;
+  border: none;
+}
+.guitarras{
+  color: rgb( 48, 80, 99);
+}
+.guitarras h2{
+  font-size: 35px;
+}
+.g-acustica{
+  float: right;
+  position: relative;
+  top: -221px;
+}
+.acustica{
+  border: 1px solid;
+  border-color: rgb(48, 80, 99);
+  border-radius: 20px;
+  width: 700px;
+}
+.clasica{
+  margin-top: 80px;
+  border: 1px solid;
+  border-color: rgb(48, 80, 99);
+  border-radius: 20px;
+  position: relative;
+  width: 700px;
+  margin-bottom: 200px;
+}
+.clasica ol{
+  position: relative;
+  left: 300px;
+}
+.g-clasica{
+  float: left;
+  position: absolute;
+  left: -30px;
+}
+.footer{
+  background: rgb(20, 37, 46);
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.footer .contenedor{
+  display: flex;
+}
+.formulario{
+  width: 400px;
+}
+.footer .formulario{
+  display: flex;
+}
+.contacto{
+  width: 600px;
+}
+.contacto a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+.contacto strong{
+  padding-top: 20px;
+}
+.contacto span{
+  display: block;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.contacto img{
+  display: block;
+  margin-bottom: 20px;
+
+}
+.intereses{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.genero{
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+  margin-top: 10px;
+}
+.check{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: space-between;
+  font-size: 12px;
+
+}
+.enviar{
+  border: none;
+  background: red;
+  color: white;
+  padding: 5px;
+}
