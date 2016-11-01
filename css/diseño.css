@@ -73,6 +73,7 @@ h1 span{
   padding: 7px;
   margin-bottom: 100px;
   border: none;
+  border-radius: 8px;
 }
 .guitarras{
   color: rgb( 48, 80, 99);
@@ -170,4 +171,30 @@ h1 span{
   background: red;
   color: white;
   padding: 5px;
+}
+
+/*Responsive Desing*/
+
+@media screen and (max-width: 800px) {
+  *{
+    border: 1px solid red;
+  }
+  .menu{
+    right: 200px;
+  }
+  .logotipo{
+    margin-left: 15px;
+  }
+  .portada h1{
+    font-size: 40px;
+    margin-left: 15px;
+  }
+  .portada h3{
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .botoncito{
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
 }
