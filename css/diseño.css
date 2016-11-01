@@ -84,7 +84,7 @@ h1 span{
 .g-acustica{
   float: right;
   position: relative;
-  top: -221px;
+  top: -101px;
 }
 .acustica{
   border: 1px solid;
@@ -176,11 +176,15 @@ h1 span{
 /*Responsive Desing*/
 
 @media screen and (max-width: 800px) {
-  *{
+  /**{
     border: 1px solid red;
+  }*/
+  .contenedor{
+    max-width: 950px;
+    width: auto;
   }
   .menu{
-    right: 200px;
+    right: 10px;
   }
   .logotipo{
     margin-left: 15px;
@@ -188,13 +192,40 @@ h1 span{
   .portada h1{
     font-size: 40px;
     margin-left: 15px;
+    margin-top: 30px;
   }
   .portada h3{
     font-size: 20px;
     margin-left: 15px;
+    margin-top: 10px;
   }
   .botoncito{
     margin-left: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+  }
+  .guitarras h2{
+    font-size: 25px;
+    text-align: center;
+  }
+  .acustica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .g-acustica{
+    float: none;
+    position: static;
+  }
+  .titulo-a{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .acustica li{
+    list-style: none;
+  }
+  .acustica ol{
+    padding: 0;
   }
 }
