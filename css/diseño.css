@@ -11,7 +11,7 @@ body{
   position: relative;
 }
 .contenedor{
-  width: 950px;
+  max-width: 950px;
   margin: auto;
 }
 .contenedor-g{
@@ -173,7 +173,7 @@ h1 span{
   padding: 5px;
 }
 
-/*Responsive Desing*/
+/*================Responsive Desing=========================*/
 
 @media screen and (max-width: 800px) {
   /**{
