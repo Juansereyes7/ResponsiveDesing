@@ -272,6 +272,36 @@ h1 span{
 /*----------------Diseño para tablets---------------------------------------------*/
 /*----------------Diseño para móviles---------------------------------------------*/
 
-@@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
+  .header{
+    text-align: center;
+  }
+  .logotipo{
+    margin: 20px 0 20px 0px;
+    padding: 0;
+  }
+  .menu {
+    position: static;
+    padding: 0;
+    margin: 0;
+  }
+  .menu li{
+    display: block;
+    padding-bottom: 10px;
+    margin: 20px 0 20px 0px;
+    border-bottom: 1px solid white;
+  }
+
+  .menu li:first-child{
+    padding-top: 10px;
+    border-top: 1px solid white;
+  }
+  .menu ul{
+    padding: 0;
+    margin: 0;
+  }
+  .menu li:before{
+    display: none;
+  }
 }
