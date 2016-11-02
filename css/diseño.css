@@ -15,7 +15,8 @@ body{
   margin: auto;
 }
 .contenedor-g{
-  width: 700px;
+  max-width: 700px;
+  width: auto;
   margin: auto;
 }
 .logotipo{
@@ -118,6 +119,7 @@ h1 span{
 }
 .footer .contenedor{
   display: flex;
+  max-width: 950px;
 }
 .formulario{
   width: 400px;
@@ -171,6 +173,10 @@ h1 span{
   background: red;
   color: white;
   padding: 5px;
+  border-radius: 4px;
+}
+#nombre, #email{
+  width: 165px;
 }
 
 /*================Responsive Desing=========================*/
@@ -204,7 +210,7 @@ h1 span{
     margin-bottom: 40px;
   }
   .guitarras h2{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
   }
   .acustica{
@@ -236,6 +242,8 @@ h1 span{
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    margin-bottom: 50px;
+    margin-top: 25px;
   }
   .g-clasica{
     position: static;
@@ -244,9 +252,20 @@ h1 span{
     position: static;
     padding: 0;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+  }
+  .titulo-b{
+    font-size: 35px;
   }
   .clasica li{
     list-style: none;
+  }
+  .contacto{
+    width: 350px;
+    margin-left: 15px;
+  }
+  .comentarios textarea{
+    width: 185px;
+    margin-right: 15px;
   }
 }
