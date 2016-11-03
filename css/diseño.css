@@ -355,6 +355,9 @@ h1 span{
     display: block;
     font-size: 12px;
   }
+  .contenedor{
+    width: auto;
+  }
   .formulario{
     margin-left: 50px;
   }
@@ -398,5 +401,9 @@ h1 span{
   .contacto{
     margin-bottom: 20px;
     margin-left: 50px;
+    width: auto;
+  }
+  .footer .formulario{
+    width: auto;
   }
 }
