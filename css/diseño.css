@@ -44,7 +44,7 @@ body{
 }
 .portada{
   background-image: url('../images/background.png');
-  width: 100%
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
@@ -273,7 +273,6 @@ h1 span{
 /*----------------Diseño para móviles---------------------------------------------*/
 
 @media screen and (max-width: 500px) {
-
   .header{
     text-align: center;
   }
@@ -303,5 +302,52 @@ h1 span{
   }
   .menu li:before{
     display: none;
+  }
+  .portada{
+    text-align: center;
+  }
+  .portada h1{
+    margin: 0;
+    font-size: 30px;
+  }
+  .portada h3{
+    margin: 0;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+  }
+  .contenedor-g{
+    max-width: 500px;
+    width: auto;
+    margin: auto;
+  }
+  .acustica, .clasica{
+    width: auto;
+  }
+  .acustica{
+    margin: 0 10px 0 10px;
+  }
+  .clasica{
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  .guitarras{
+    margin-right: 0;
+  }
+  .guitarras h2{
+    font-size: 25px;
+  }
+  .g-acustica{
+    height: 200px;
+    width: 200px;
+  }
+  .titulo-a, .titulo-b{
+    font-size: 25px;
+  }
+  .clasica li, .acustica li{
+    font-size: 12px;
+  }
+  .g-clasica{
+    width: 200px;
+    margin: 15px 0 20px 0;
   }
 }
