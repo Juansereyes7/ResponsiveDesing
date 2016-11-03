@@ -188,6 +188,7 @@ h1 span{
   .contenedor{
     max-width: 950px;
     width: auto;
+    margin:auto;
   }
   .menu{
     right: 10px;
