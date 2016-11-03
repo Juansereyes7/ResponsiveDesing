@@ -119,16 +119,16 @@ h1 span{
 }
 .footer .contenedor{
   display: flex;
+  max-width: 950px;
 }
 .formulario{
-  max-width: 400px;
-  width: auto;
+  width: 400px;
 }
 .footer .formulario{
   display: flex;
 }
 .contacto{
-  width: 430px;
+  width: 600px;
 }
 .contacto a{
   color: white;
@@ -153,8 +153,6 @@ h1 span{
   flex-wrap: wrap;
   justify-content: space-between;
   margin-right: 20px;
-  max-width: 400px;
-  width: auto;
 }
 .genero{
   display: flex;
@@ -167,8 +165,7 @@ h1 span{
   flex-wrap: wrap;
   margin-top: 10px;
   justify-content: space-between;
-  font-size: 14px;
-  width: auto;
+  font-size: 12px;
 
 }
 .enviar{
@@ -181,14 +178,6 @@ h1 span{
 #nombre, #email{
   width: 165px;
 }
-
-#nombre{
-  display: block;
-}
-#email{
-  display: block;
-}
-
 
 /*================Responsive Desing===============================================*/
 /*----------------Diseño para tablets---------------------------------------------*/
@@ -277,8 +266,7 @@ h1 span{
     margin-left: 15px;
   }
   .comentarios textarea{
-    max-width: 185px;
-    width: auto;
+    width: 185px;
     margin-right: 15px;
   }
 }
@@ -400,7 +388,6 @@ h1 span{
   }
   .comentarios textarea{
     display: block;
-    max-width: 200px;
     width: auto;
     margin-bottom: 20px;
   }
